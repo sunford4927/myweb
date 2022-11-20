@@ -1,0 +1,28 @@
+
+
+.sidebarMenu{
+    margin-bottom:2rem;
+}
+
+.sidebartitle{
+    font-size:0.9rem;
+    color:white;
+}
+
+.sidebarlist{
+    list-style:none;
+    padding:0.5rem;
+}
+
+.sidebarlistitem{
+    padding:5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sidebarlistitem.active,
+.sidebarlistitem:hover{
+    background-color:rgb(242, 236, 236);
+}
